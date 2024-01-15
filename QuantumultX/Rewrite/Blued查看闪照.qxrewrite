@@ -1,6 +1,7 @@
 ###打开qx通知，对方发送闪照会出现提醒，点击提醒直接跳转到Safari即可查看对方闪照。
 
 hostname = chatfiles.bldimg.com
-
+hostname = burn-chatfiles.bldimg.com
 # Blued 模块
 ^https:\/\/.*chatfiles\.bldimg\.com\/ url script-response-body https://github.com/Eddie1551/own/raw/main/QuantumultX/script/blued.js
+^https:\/\/.*burn-chatfiles\.bldimg\.com\/ url script-response-body https://github.com/Eddie1551/own/raw/main/QuantumultX/script/blued.js
